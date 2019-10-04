@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/option1"
+        android:title="Lodge Complaint" />
+
+    <item
+        android:id="@+id/option2"
+        android:title="Contact Us"/>
+
+    <item
+        android:id="@+id/option3"
+        android:title="About Us"/>
+
+</menu>
