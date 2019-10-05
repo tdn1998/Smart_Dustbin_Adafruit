@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Toolbar toolbar = findViewById(R.id.toolbar);
-        toolbar.setTitle(" Smart DustBin");
+        toolbar.setTitle(" Smart Dustbin");
         setSupportActionBar(toolbar);
         toolbar.setLogo(R.drawable.ic_actionbar_logo);
 
