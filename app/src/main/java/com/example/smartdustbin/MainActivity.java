@@ -214,17 +214,6 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    //For Refresh floating Button Clicked
-
-    /*public void floatingbutton_refresh(){
-        refresh.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-            }
-        });
-    }*/
-
     //For Sending Message when floating Button Clicked
 
     public void floatingbutton_message(){

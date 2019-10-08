@@ -32,35 +32,35 @@
                 android:textColor="@color/colorPrimary"/>
 
             <me.itangqi.waveloadingview.WaveLoadingView
-                android:id="@+id/loading_screen"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:layout_marginLeft="80dp"
-                android:layout_marginRight="80dp"
-                android:layout_marginBottom="100dp"
+            android:id="@+id/loading_screen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginBottom="100dp"
 
-                app:wlv_borderColor="@color/colorPrimary"
-                app:wlv_borderWidth="1dp"
-                app:wlv_shapeType="rectangle"
-                app:wlv_round_rectangle="true"
-                app:wlv_triangle_direction="north"
+            app:wlv_borderColor="@color/colorPrimary"
+            app:wlv_borderWidth="1dp"
+            app:wlv_shapeType="rectangle"
+            app:wlv_round_rectangle="true"
+            app:wlv_triangle_direction="north"
 
-                app:wlv_titleCenterSize="25sp"
-                app:wlv_titleCenterStrokeWidth="2dp"
-                app:wlv_titleCenterColor="@android:color/white"
+            app:wlv_titleCenterSize="25sp"
+            app:wlv_titleCenterStrokeWidth="2dp"
+            app:wlv_titleCenterColor="@android:color/white"
 
-                app:wlv_titleTopSize="25sp"
-                app:wlv_titleTopStrokeWidth="2dp"
-                app:wlv_titleTopColor="@android:color/white"
+            app:wlv_titleTopSize="25sp"
+            app:wlv_titleTopStrokeWidth="2dp"
+            app:wlv_titleTopColor="@android:color/white"
 
-                app:wlv_titleBottomSize="25sp"
-                app:wlv_titleBottomStrokeWidth="2dp"
-                app:wlv_titleBottomColor="@android:color/white"
+            app:wlv_titleBottomSize="25sp"
+            app:wlv_titleBottomStrokeWidth="2dp"
+            app:wlv_titleBottomColor="@android:color/white"
 
-                app:wlv_waveAmplitude="20"
-                app:wlv_waveColor="#009CFF" />
+            app:wlv_waveAmplitude="20"
+            app:wlv_waveColor="#009CFF" />
 
         </LinearLayout>
 
@@ -77,20 +77,6 @@
             app:backgroundTint="@color/message"
             android:visibility="invisible"
             />
-
-        <!--<android.support.design.widget.FloatingActionButton
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:layout_gravity="bottom|end"
-            android:layout_marginRight="@dimen/fab_margin_right"
-            android:layout_marginBottom="100dp"
-            android:src="@drawable/ic_action_refresh"
-            android:elevation="6dp"
-            android:id="@+id/fab_refresh"
-            app:pressedTranslationZ="12dp"
-            app:backgroundTint="@color/refresh"
-            android:visibility="invisible"
-            />-->
 
         <android.support.design.widget.FloatingActionButton
             android:layout_height="wrap_content"
